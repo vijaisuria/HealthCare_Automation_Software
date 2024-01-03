@@ -1,0 +1,11 @@
+@media print {
+  nav,
+  .pdf,
+  footer {
+    display: none !important;
+  }
+  header,
+  #foot {
+    display: block !important;
+  }
+}

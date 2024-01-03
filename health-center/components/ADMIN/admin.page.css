@@ -1,0 +1,39 @@
+/* src/components/NoticeBoard.css */
+@keyframes glitter {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.notice-board {
+  background-color: #f7fafc;
+}
+
+.glitter-effect {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.8) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 100px 100px;
+  z-index: 1;
+  animation: glitter 2s infinite;
+  opacity: 0.3;
+  transform: scale(1);
+}

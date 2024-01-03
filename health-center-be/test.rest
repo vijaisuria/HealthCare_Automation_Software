@@ -1,0 +1,6 @@
+PUT http://localhost:5000/api/students/verifyRegister/2021503568
+content-type: application/json
+
+{
+    "verifiedBy": "64972d76e740f4e6e4604047"
+}
